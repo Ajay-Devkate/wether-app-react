@@ -1,0 +1,18 @@
+
+.InfoBox{
+    margin: 25px auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.InfoCard {
+    width: 50vw;
+}
+
+@media screen and (width < 520px) {
+    .InfoCard {
+        width: 70vw;
+    }
+}
