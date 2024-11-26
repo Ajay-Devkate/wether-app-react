@@ -5,8 +5,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-   "dev": "vite --host --port 8888",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "vite build",
     "predeploay": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint .",
